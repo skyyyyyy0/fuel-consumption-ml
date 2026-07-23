@@ -1,0 +1,13 @@
+signal,vehicle_coverage,period_coverage,unit,role,ml_decision,notes
+GPS Trip Distance,12/12,2026 Before/After/Final,km,Core Feature,Use,Trip-level distance available for all 12 vehicles.
+Engine speed,12/12,36/36 primary periods,RPM,Core Feature,Use,Range 0–4508.5 RPM; zero values retained for later state filtering.
+Engine road speed,12/12,36/36 primary periods,km/h,Core Feature,Use after cleaning,Observed maximum 3400; unit inconsistency detected and requires Day 4 investigation.
+Trip fuel used,12/12,36/36 primary periods,L,Target,Target candidate,Range 0.01–66.41 L; timestamp alignment with GeoTab trips must be validated.
+Ignition,12/12,36/36 ary periods,0/1,Core Feature,Use,Binary signal.
+Vehicle active (idle or driving),12/12,36/36 primary periods,0/1,Core Feature,Use,Binary vehicle-state signal.
+Total fuel used (since telematics device install),12/12,36/36 primary periods,L,Validation,Validation only,Cumulative fuel signal; not primary ML target.
+Gear position,11/12,Partial,categorical,Optional Feature,Optional,Incomplete fleet coverage.
+Outside air temperature,5/12,Partial,C,Optional Feature,Optional,Insufficient fleet-wide coverage.
+Odometer,6/12,Partial,km,Validation,Validation only,GPS trip distance used as primary distance source.
+Coolant temperature,0/12,Unavailable,,Excluded,Exclude,Signal unavailable.
+Engine Load,0/12,Unavailable,,Excluded,Exclude,Signal unavailable.
