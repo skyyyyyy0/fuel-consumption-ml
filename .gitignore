@@ -30,4 +30,9 @@ data/processed/
 # Tableau
 *.hyper
 
+# Internal analysis outputs
 reports/data_inventory.csv
+reports/signal_inventory_raw.csv
+reports/signal_value_audit.csv
+reports/signal_coverage_summary.csv
+reports/distance_coverage.csv
