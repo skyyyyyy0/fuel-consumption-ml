@@ -29,3 +29,5 @@ data/processed/
 
 # Tableau
 *.hyper
+
+reports/data_inventory.csv
