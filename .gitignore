@@ -36,3 +36,8 @@ reports/signal_inventory_raw.csv
 reports/signal_value_audit.csv
 reports/signal_coverage_summary.csv
 reports/distance_coverage.csv
+reports/speed_anomaly_audit.csv
+reports/distance_anomaly_audit.csv
+reports/fuel_gps_alignment_audit.csv
+reports/data_structure_audit.csv
+reports/duplicate_audit.csv
