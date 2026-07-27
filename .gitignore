@@ -51,3 +51,5 @@ reports/fuel_anomaly_audit.csv
 reports/rpm_anomaly_audit.csvreports/idle_signal_alignment_audit.csv
 reports/state_time_gap_audit.csv
 reports/vehicle_state_signal_audit.csv
+reports/idle_signal_alignment_audit.csv
+reports/rpm_anomaly_audit.csv
