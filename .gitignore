@@ -48,4 +48,6 @@ reports/trip_duplicate_match_audit.csv
 reports/trip_target_fleet_audit.csv
 # Internal anomaly audit outputs
 reports/fuel_anomaly_audit.csv
-reports/rpm_anomaly_audit.csv
+reports/rpm_anomaly_audit.csvreports/idle_signal_alignment_audit.csv
+reports/state_time_gap_audit.csv
+reports/vehicle_state_signal_audit.csv
