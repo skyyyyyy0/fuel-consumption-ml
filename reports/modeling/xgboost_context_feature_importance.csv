@@ -1,0 +1,14 @@
+feature,importance
+trip_distance_km,0.6307739
+trip_duration_min,0.15934184
+max_rpm,0.048207205
+trip_hour,0.037761558
+max_speed_kmh,0.029929608
+avg_speed_kmh,0.02304246
+rpm_std,0.020688303
+avg_rpm,0.020179594
+idle_ratio,0.011030164
+speed_std,0.010266965
+day_of_week,0.004521089
+is_weekend,0.0032653133
+high_rpm_ratio,0.000991914

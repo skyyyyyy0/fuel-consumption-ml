@@ -1,0 +1,2 @@
+n_estimators,learning_rate,max_depth,subsample,colsample_bytree,train_MAE,validation_MAE,validation_RMSE,validation_R2,mae_gap
+200.0,0.03,5.0,1.0,1.0,0.21201760583048856,0.35055110609714263,1.7867548186783335,0.898881562083056,0.13853350026665406
