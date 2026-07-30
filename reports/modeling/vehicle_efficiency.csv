@@ -1,0 +1,13 @@
+efficiency_rank,vehicle_id,efficiency_status,ranking_reliability,total_oos_trips,eligible_trips,excluded_small_fuel_trips,eligible_trip_share_pct,total_actual_fuel_liter,total_expected_fuel_liter,total_residual_fuel_liter,fuel_deviation_pct,actual_to_expected_ratio,mean_residual_liter,median_residual_liter,mae_liter,residual_std_liter,mean_trip_difference_pct,median_trip_difference_pct
+1,VEH_01,Lower Fuel Use Than Expected,Sufficient Trips,608,592,16,97.3684,225.5,250.2343,-24.7343,-9.8844,0.9012,-0.04,-0.0393,0.1027,0.1692,-14.2789,-16.9485
+2,VEH_09,Lower Fuel Use Than Expected,Sufficient Trips,790,775,15,98.1013,249.01,274.9611,-25.9511,-9.4381,0.9056,-0.0323,-0.0364,0.0937,0.1712,-11.79,-14.7859
+3,VEH_10,Lower Fuel Use Than Expected,Sufficient Trips,515,512,3,99.4175,231.25,254.1389,-22.8889,-9.0065,0.9099,-0.0444,-0.0522,0.0858,0.1135,-19.254,-16.5186
+4,VEH_08,Lower Fuel Use Than Expected,Sufficient Trips,261,257,4,98.4674,202.55,221.0493,-18.4993,-8.3689,0.9163,-0.0708,-0.0488,0.1127,0.1499,-12.7053,-10.8501
+5,VEH_12,Within Expected Range,Sufficient Trips,262,251,11,95.8015,2024.7,2016.3548,8.3452,0.4139,1.0041,0.0389,0.0508,0.831,1.9026,3.3441,0.0763
+6,VEH_06,Within Expected Range,Sufficient Trips,220,220,0,100.0,2105.0,2064.0205,40.9795,1.9854,1.0199,0.1863,-0.1778,1.3167,3.8494,2.2624,-2.293
+7,VEH_11,Within Expected Range,Sufficient Trips,139,136,3,97.8417,1972.69,1883.8678,88.8222,4.7149,1.0471,0.6983,0.1194,1.3381,2.5773,33.2733,2.0807
+8,VEH_05,Within Expected Range,Sufficient Trips,166,161,5,96.988,1932.21,1841.2729,90.9371,4.9388,1.0494,0.5601,-0.0591,2.0215,6.0878,10.3504,-1.5325
+9,VEH_03,Higher Fuel Use Than Expected,Sufficient Trips,233,230,3,98.7124,285.21,269.8745,15.3355,5.6825,1.0568,0.0661,0.0036,0.1256,0.171,-8.523,0.9193
+10,VEH_04,Higher Fuel Use Than Expected,Sufficient Trips,270,256,14,94.8148,292.13,270.7823,21.3477,7.8837,1.0788,0.0806,-0.0099,0.1676,0.3785,1.8993,-2.9461
+11,VEH_02,Higher Fuel Use Than Expected,Sufficient Trips,322,321,1,99.6894,211.91,188.9747,22.9353,12.1367,1.1214,0.0713,0.0332,0.1219,0.2053,23.8017,7.6789
+12,VEH_07,Higher Fuel Use Than Expected,Sufficient Trips,184,179,5,97.2826,158.82,136.8832,21.9368,16.026,1.1603,0.1204,-0.0148,0.2509,0.5047,34.8029,-3.5134
