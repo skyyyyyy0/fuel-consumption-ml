@@ -1,0 +1,2 @@
+vehicle_id,trip_id,period,trip_start_time,trip_end_time,model_split,trip_fuel_used_liter,trip_distance_km,trip_duration_min,avg_speed_kmh,max_speed_kmh,speed_std,avg_rpm,max_rpm,rpm_std,high_rpm_ratio,idle_ratio,trip_hour,day_of_week,is_weekend,predicted_fuel_liter,shap_base_value
+VEH_01,VEH_01_FINAL_0489,Final,2026-07-13 01:14:51.063000+00:00,2026-07-13 01:27:22.187000+00:00,test,0.22,0.82652014,12.518733333333332,8.285714285714286,30.0,8.41281820819169,1023.8888888888888,1773.0,393.52560821500253,0.0,0.1757025548671495,10,0,0,0.3572611,2.4169164
