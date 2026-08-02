@@ -29,6 +29,7 @@ data/processed/
 
 # Tableau
 *.hyper
+*.twbr
 
 # Internal analysis outputs
 reports/data_inventory.csv
@@ -42,14 +43,14 @@ reports/fuel_gps_alignment_audit.csv
 reports/data_structure_audit.csv
 reports/duplicate_audit.csv
 
-# Day 5 internal audit outputs
+# Internal target / audit outputs
 reports/trip_target_matching_test.csv
 reports/trip_duplicate_match_audit.csv
 reports/trip_target_fleet_audit.csv
+
 # Internal anomaly audit outputs
 reports/fuel_anomaly_audit.csv
-reports/rpm_anomaly_audit.csvreports/idle_signal_alignment_audit.csv
+reports/rpm_anomaly_audit.csv
+reports/idle_signal_alignment_audit.csv
 reports/state_time_gap_audit.csv
 reports/vehicle_state_signal_audit.csv
-reports/idle_signal_alignment_audit.csv
-reports/rpm_anomaly_audit.csv
