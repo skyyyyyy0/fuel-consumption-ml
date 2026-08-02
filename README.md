@@ -234,9 +234,11 @@ fuel-consumption-ml/
 
 The project workflow can be reproduced by installing the required Python dependencies and running the data preparation, feature engineering, modeling, and evaluation steps in sequence.
 
+```text
 git clone <repository-url>
 cd fuel-consumption-ml
 pip install -r requirements.txt
+```
 
 The analytical workflow follows:
 
