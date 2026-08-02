@@ -186,6 +186,10 @@ The dashboard is organized into four analytical views:
 ### Executive Overview
 Provides a high-level summary of model performance and fleet fuel consumption, including Actual vs. Expected Fuel, residual behavior, and key model metrics.
 
+Model performance, Actual vs. Expected Fuel, residual behavior, and key evaluation metrics.
+
+![Executive Overview](images/dashboard_model_overview.png)
+
 ### Vehicle Performance
 Compares fuel consumption across the 12-vehicle fleet and highlights differences between Actual and Expected Fuel at the vehicle level.
 
@@ -250,4 +254,34 @@ Only anonymized, aggregated, or portfolio-safe data and analytical outputs are p
 
 ## Tech Stack
 
+- **Programming:** Python, SQL
+- **Data Processing:** Pandas, NumPy
+- **Machine Learning:** scikit-learn, XGBoost
+- **Model Explainability:** SHAP
+- **Visualization:** Matplotlib, Tableau
+- **Data Source:** Commercial fleet telematics
+- **Development:** Jupyter Notebook, Git, GitHub
+
 ## Limitations & Future Work
+
+Although the model achieved strong out-of-sample predictive performance, several limitations should be considered when interpreting the results.
+
+### Limitations
+
+- **Limited fleet size:** The dataset represents 12 vehicles, so the results should not automatically be generalized to substantially different fleets or vehicle populations.
+- **Available telemetry:** The model is limited to the operational signals available in the source system. Important factors such as detailed engine load, road grade, payload, traffic conditions, and weather were not consistently available.
+- **Observational data:** Relationships identified through SHAP, residual analysis, and operational comparisons should not be interpreted as causal effects.
+- **Large-error trips:** Although overall prediction accuracy was strong, a small number of trips produced substantially larger residuals, indicating operating conditions that are not fully captured by the current feature set.
+- **Expected fuel is model-based:** Vehicle efficiency rankings represent deviation from the model-estimated baseline, not a direct physical measurement of mechanical efficiency.
+
+### Future Work
+
+Future development would focus on improving both model generalization and the operational usefulness of the expected-fuel framework:
+
+- Incorporate additional signals such as **engine load, road grade, payload, traffic, and weather** when available.
+- Validate the model on a **larger and more diverse fleet** to test generalization across vehicle types and operating environments.
+- Investigate high-residual trips to identify additional features or operating regimes not captured by the current model.
+- Evaluate **time-based model monitoring and retraining** as fleet behavior and operating conditions change.
+- Develop vehicle-level alerting rules that flag sustained deviations from expected fuel consumption for operational review.
+
+The long-term goal is to evolve the current model from a portfolio-scale analytical framework into a more robust **fleet fuel-efficiency monitoring system** capable of detecting meaningful changes in vehicle performance over time.
