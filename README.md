@@ -179,25 +179,31 @@ The key business value is therefore not simply predicting fuel consumption, but 
 
 An interactive **Tableau dashboard** was developed to translate the modeling results into a format that can be explored by both technical and non-technical users.
 
-Rather than presenting model metrics in isolation, the dashboard connects prediction performance with vehicle-level efficiency and operational behavior. All analytical views used for fleet comparison are based on **out-of-sample predictions** to keep the business interpretation separate from the data used to train the model.
-
-The dashboard is organized into four analytical views:
+The dashboard connects model performance with vehicle-level efficiency, operational behavior, and prediction diagnostics. Fleet-level comparisons are based on **out-of-sample predictions** to ensure that the analysis reflects model generalization rather than training performance.
 
 ### Executive Overview
-Provides a high-level summary of model performance and fleet fuel consumption, including Actual vs. Expected Fuel, residual behavior, and key model metrics.
 
-Model performance, Actual vs. Expected Fuel, residual behavior, and key evaluation metrics.
+Provides a high-level summary of model performance and fleet fuel consumption, including Actual vs. Expected Fuel, residual behavior, and key evaluation metrics.
 
 ![Executive Overview](images/dashboard_model_overview.png)
 
 ### Vehicle Performance
-Compares fuel consumption across the 12-vehicle fleet and highlights differences between Actual and Expected Fuel at the vehicle level.
+
+Compares performance across the 12-vehicle fleet using Actual vs. Expected Fuel, vehicle-level fuel deviation, residuals, and prediction error.
+
+![Vehicle Performance](images/dashboard_vehicle_performance.png)
 
 ### Operational Drivers
+
 Examines relationships between fuel prediction error and operational characteristics such as average speed, RPM, idling, and high-RPM behavior.
 
+![Operational Drivers](images/dashboard_operational_drivers.png)
+
 ### Model Diagnostics
-Investigates where the model produces larger errors through residual distributions, high-error trips, and error patterns across trip distance and duration.
+
+Investigates where the model produces larger prediction errors through residual distributions, high-error trips, and error patterns across trip distance and duration.
+
+![Model Diagnostics](images/dashboard_model_diagnostics.png)
 
 Together, these views create a progression from:
 
