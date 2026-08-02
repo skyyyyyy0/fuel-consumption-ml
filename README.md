@@ -211,7 +211,7 @@ Together, these views create a progression from:
 
 The dashboard is designed to support **screening and investigation rather than causal conclusions**, allowing users to move from fleet-level patterns to specific vehicles and operating conditions that may warrant further analysis.
 
-**Interactive Dashboard:** [Tableau Public Dashboard](TABLEAU_PUBLIC_URL)
+**Interactive Dashboard:** [**View the Interactive Tableau Dashboard →**](https://public.tableau.com/app/profile/haneul.jang/viz/fuel_consumption_dashboard/Dashboard-ExecutiveOverview)
 
 ## Repository Structure & Reproduction
 
