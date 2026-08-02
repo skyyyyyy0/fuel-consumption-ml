@@ -57,7 +57,7 @@ The final modeling dataset includes features describing:
 
 Data-quality rules were applied before modeling to remove invalid or unreliable observations, including trips with missing fuel targets, non-positive distance or duration, and problematic target assignments.
 
-To prevent information leakage, model evaluation was performed using **out-of-sample observations**, with vehicle-level generalization considered in the validation strategy.
+To prevent information leakage, model evaluation was performed using **out-of-sample observations**. Vehicle-level generalization was additionally evaluated using **leave-one-vehicle-out validation**, where each vehicle was held out entirely from training and evaluated as an unseen vehicle.
 
 ### Pipeline
 
