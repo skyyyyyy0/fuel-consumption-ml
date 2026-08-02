@@ -177,6 +177,8 @@ The key business value is therefore not simply predicting fuel consumption, but 
 
 ## Tableau Dashboard
 
+**Interactive Dashboard:** [**View the Interactive Tableau Dashboard →**](https://public.tableau.com/app/profile/haneul.jang/viz/fuel_consumption_dashboard/Dashboard-ExecutiveOverview)
+
 An interactive **Tableau dashboard** was developed to translate the modeling results into a format that can be explored by both technical and non-technical users.
 
 The dashboard connects model performance with vehicle-level efficiency, operational behavior, and prediction diagnostics. Fleet-level comparisons are based on **out-of-sample predictions** to ensure that the analysis reflects model generalization rather than training performance.
@@ -211,8 +213,6 @@ Together, these views create a progression from:
 
 The dashboard is designed to support **screening and investigation rather than causal conclusions**, allowing users to move from fleet-level patterns to specific vehicles and operating conditions that may warrant further analysis.
 
-**Interactive Dashboard:** [**View the Interactive Tableau Dashboard →**](https://public.tableau.com/app/profile/haneul.jang/viz/fuel_consumption_dashboard/Dashboard-ExecutiveOverview)
-
 ## Repository Structure & Reproduction
 
 The repository is organized to separate data preparation, modeling, evaluation, and reporting so that the analytical workflow can be followed from raw inputs to final business outputs.
@@ -244,7 +244,7 @@ fuel-consumption-ml/
 
 The project workflow can be reproduced by installing the required Python dependencies and running the data preparation, feature engineering, modeling, and evaluation steps in sequence.
 
-```text
+```bash
 git clone https://github.com/skyyyyyy0/fuel-consumption-ml.git
 cd fuel-consumption-ml
 pip install -r requirements.txt
