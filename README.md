@@ -245,7 +245,7 @@ fuel-consumption-ml/
 The project workflow can be reproduced by installing the required Python dependencies and running the data preparation, feature engineering, modeling, and evaluation steps in sequence.
 
 ```text
-git clone <repository-url>
+git clone https://github.com/skyyyyyy0/fuel-consumption-ml.git
 cd fuel-consumption-ml
 pip install -r requirements.txt
 ```
@@ -254,7 +254,7 @@ The analytical workflow follows:
 
 Data Preparation → Feature Engineering → Model Training → Evaluation → Out-of-Sample Prediction → Fleet Analysis
 
-Data Privacy: Because this project originates from real-world commercial vehicle telemetry, raw telemetry files, device identifiers, VINs, source-system credentials, and other sensitive information are not included in the public repository.
+> **Data Privacy:** Because this project originates from real-world commercial vehicle telemetry, raw telemetry files, device identifiers, VINs, source-system credentials, and other sensitive information are not included in the public repository.
 
 Only anonymized, aggregated, or portfolio-safe data and analytical outputs are published. This preserves the reproducibility of the analytical methodology while protecting confidential source information.
 
